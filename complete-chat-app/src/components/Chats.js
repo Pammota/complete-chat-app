@@ -70,8 +70,9 @@ const Chats = () => {
     return(
         <div className="chats-page">
             <div className="nav-bar">
-                <div className="logo-tab">
-                    BogdanChat
+                <div className="logo-tab header-holder">
+                    <img alt="logo" className="logo-img" src="https://img.icons8.com/color/48/000000/chat--v1.png"/><
+                    div>BogdanChat</div>
                 </div>
 
                 <div onClick={handleLogout} className="logout-tab">

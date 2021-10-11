@@ -99,3 +99,10 @@
   left: calc(50vw - 33px);
   top: calc(50vh - 22px);
 }
+
+.header-holder {
+  display: flex;
+}
+.logo-img{
+  margin-right: 10px;
+}
