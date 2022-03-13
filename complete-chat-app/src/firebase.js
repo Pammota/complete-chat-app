@@ -10,3 +10,5 @@ export const auth = firebase.initializeApp({
     appId: "1:930365154372:web:5802424ae11de39e840811"
 }).auth();
 ///we are exporting our auth created by firebase
+///firebase settings only allow specific URLs
+//the keys can't be used for any other URL, therefore they can be left public
